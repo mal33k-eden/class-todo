@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One" rel="stylesheet" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="flex-container box yellow-bg">
+        <div class="brand"><h1>Our Todo</h1></div>
+        <div class="app-form">
+          <input type="text" name="todo" id="todo" />
+          <button onclick="addTodo()">Save</button>
+        </div>
+        <div class="todo-list" id="todo-list">
+          <div class="todo">
+            <div class="todo-items">
+              <h3>Buy Milk Today</h3>
+              <h4>20-12-2022</h4>
+            </div>
+            <div class="btn-group">
+              <button class="green-bg">Add</button>
+              <button class="red-bg">Remove</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+
+  <footer>
+    <script src="js/scripts.js"></script>
+  </footer>
+</html>

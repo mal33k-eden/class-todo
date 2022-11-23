@@ -1,0 +1,104 @@
+@import url("typography.css");
+:root {
+  --paradise: #ef476f;
+  --crayola: #ffd166;
+  --green: #06d6a0;
+  --powder: #ffeaba;
+  --brownie: #221802;
+}
+
+body {
+  background-color: var(--powder);
+  font-family: "Fredoka One", cursive;
+}
+
+.box {
+  padding: 2rem;
+}
+
+.red-bg {
+  background-color: var(--paradise);
+}
+.yellow-bg {
+  background-color: var(--crayola);
+  color: var(--brownie);
+}
+.green-bg {
+  background-color: var(--green);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+.flex-container {
+  width: 40rem;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+}
+
+.brand {
+  min-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-form {
+  min-width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
+}
+
+.app-form input[type="text"] {
+  width: 75%;
+  margin: 0px 10px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid var(--brownie);
+  border-radius: 9px;
+  background-color: var(--powder);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.app-form input[type="text"]:focus {
+  outline: none;
+  border: 2px solid var(--green) !important;
+}
+
+.app-form button {
+  min-width: 20%;
+  background-color: var(--green);
+  color: white;
+  border-radius: 9px;
+  border: 2px solid var(--brownie);
+}
+
+.app-form button:hover {
+  cursor: pointer;
+}
+
+.todo-list {
+}
+.btn-group button {
+  color: white;
+  border-radius: 9px;
+  border: 2px solid var(--brownie);
+  cursor: pointer;
+}
+.todo {
+  min-width: fit-content;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 2px solid var(--green);
+}
+
+.btn {
+  margin-right: 3px;
+}
